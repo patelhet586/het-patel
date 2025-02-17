@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: #006039;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.nav-prt2 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    font-family: inherit;
+}
+
+.nav h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.nav h4 {
+    font-size: 1.3vw;
+}
+
+.nav i {
+    font-size: 1.6vw;
+    font-weight: 800px;
+    display: none;
+}
+
+.content {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+
+    color: black;
+    padding: 8Vh 4vw;
+
+}
+
+.left h1 {
+    font-size: 4.2vw;
+}
+
+.left span {
+    color: rgb(18, 146, 88);
+}
+
+.left p {
+    font-size: 1.23vw;
+    font-weight: 600;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left button {
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #006039;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+}
+
+.main2 {
+    clear: both;
+}
+
+.parent {
+    height: 550px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgb(2, 140, 108);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card img {
+    background-size: cover;
+    height: 340px;
+    width: 240px;
+}
+
+.faq {
+    padding: 40px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+    background-color: white;
+    color: black;
+}
+
+.faq span {
+    color: rgba(18, 146, 88);
+}
+
+.accordion {
+    background-color: white;
+    color: black;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.question {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-right: 16px;
+    transition: transform 0.2s;
+}
+
+.icon.active {
+    transform: rotate(-45deg);
+}
+
+.answer {
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.content2 {
+    background-color: white;
+
+    color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5vh 1vw;
+}
+
+.content2 h6 {
+    padding: 0vh 7vw;
+
+}
+
+.content2 input {
+    border: 2px solid #006039;
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    padding: 2vh 18vw;
+
+}
+
+.content2 button {
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color:#006039;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.content2 p {
+    padding: 1vh;
+}
+
+.content2 span {
+    border-bottom: 2px solid white;
+
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer-cols {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-cols ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-cols ul li {
+    margin-bottom: 10px;
+}
+
+.footer-cols a {
+    color: black;
+    text-decoration: none;
+}
+
+.lang-select select {
+    padding: 5px;
+    margin: 10px 0;
+    color:#006039;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.footer-cols li {
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,185 @@
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1400px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+    .content2 button {
+        height: 55px;
+        width: 100px;
+        gap: 10px;
+        font-size: 13px;
+        padding: 1vh;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+    .card {
+        width: calc(33.33% - 20px);
+    }
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+
+    .parent {
+        height: 1960px;
+    }
+
+    .content2 input {
+        width: 390px;
+    }
+
+    .content2 button {
+        height: 55px;
+        width: 100px;
+        gap: 10px;
+        font-size: 13px;
+        padding: 1vh;
+    }
+
+    .parent {
+        height: 600px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .nav {
+        height: 50px;
+    }
+
+    .nav h2 {
+        font-size: 24px;
+    }
+
+    .nav h4 {
+        font-size: 4vw;
+        display: none;
+    }
+
+    .nav i {
+        font-size: 6vw;
+        font-weight: 800px;
+        display: block;
+    }
+
+    .content {
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+
+    .left h1 {
+        font-size: 10vw;
+    }
+
+    .left p {
+        font-size: 3vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+
+    .content button {
+        padding: 3vw 10vw;
+        font-size: 3.5vw;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    .right {
+        height: 55%;
+        width: 100%;
+    }
+
+    .content1 {
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+
+    .right1 {
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+
+    .right1 h1 {
+        font-size: 10vw;
+    }
+
+    .right1 p {
+        font-size: 3vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+
+    .content1 button {
+        padding: 3vw 10vw;
+        font-size: 3.5vw;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    .left1 {
+        height: 55%;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .footer-cols {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lang-select select {
+        color: lightseagreen;
+        background-color: white;
+        height: 50px;
+        width: fit-content;
+    }
+
+    .question h3 {
+        font-size: 18px;
+    }
+
+    .content2 button {
+        height: 55px;
+        width: 100px;
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    .footer {
+        height: 600px;
+    }
+
+    .answer {
+        overflow: hidden;
+    }
+
+    .parent {
+        background-color: black;
+        height: 1000px;
+    }
+
+    .content2 input {
+        width: 200px;
+        padding: 1vw;
+    }
+}

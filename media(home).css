@@ -1,0 +1,121 @@
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1400px) { 
+
+
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+
+ }
+
+ /* `lg` applies to medium devices (tablets, less than 992px)*/
+ @media (max-width: 992px) { 
+    .child{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        
+    }
+    .parent{
+        height: 1960px;
+    }
+  }
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) { 
+    .footer-cols {
+        flex-direction: column;
+    }
+    .footer-cols ul {
+        margin-bottom: 20px;
+    }
+    .parent{
+        height: 2460px;
+    }
+    .content2  input{
+        width:15px;
+        color: black;
+    }
+    .content2  button
+    {
+        height: 50px;
+        gap: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .nav img{
+        height: 45px;
+        width: 75px;
+    }
+    .main{
+        background-size: 100% 800px;
+    }
+    .content p{
+        width: 50%;
+    }
+    .child2 input{
+        width: 150px;
+    }
+    .child{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        
+    }
+    
+    .footer-cols{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+    }
+    .lang-select select
+     {
+       color: white;
+       background-color: black;
+       height: 50px;
+       width: fit-content; 
+     }   
+    
+    .parent{
+        background-color: black;
+        height: 3200px;
+     }
+     
+    .opt1 {
+        align-items: center;
+        display: flex;
+         gap:10px;
+         margin-left: 150px;
+    
+         }
+    .use{
+        padding: 4vh;
+        
+    }
+    .question h3
+    {
+        font-size: 18px;
+    }
+    .content2 input
+    {
+        color: black;
+       width: 200px;
+       padding: 1vw;
+    }
+    .content2  button
+    {
+        gap: 10px;
+    }
+    .footer{
+         height: 1090px;
+    }
+    .answer{
+        overflow: hidden;
+    }
+}

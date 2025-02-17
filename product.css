@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+.nav-prt2 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+.nav h4 {
+    font-size: 1.3vw;
+}
+
+.container span{
+    color: purple;
+}
+.container h1{
+    padding: 1vw;
+}
+.cards
+{
+    padding: 3vh 5vw;
+    height: 400px;
+    width: 100%;
+    
+    
+
+}
+.use{
+   color: black;
+   padding: 1vh;
+    
+
+}
+.use span{
+    color: purple;
+}
+.child{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-inline: 1.5rem;
+    padding-block: 3.5rem;
+}
+.no
+{
+    display: grid;
+    
+    height:300px;
+    width:300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 1px purple;
+    padding:1vh 2vw;
+
+}
+
+
+.no img{
+    height: 199px;
+    width: 250px;
+    border-radius: 1.5rem;
+}
+.card_data{
+    width:280px;
+    background-color: black;
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom:-2rem; 
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    transition:opacity 1s 1s;
+}
+.footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer-cols {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-cols ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-cols ul li {
+    margin-bottom: 10px;
+}
+
+.footer-cols a {
+    color: black;
+    text-decoration: none;
+}
+
+.lang-select select {
+    padding: 5px;
+    margin: 10px 0;
+    color: purple;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.footer-cols li {
+    border-bottom: 2px solid white;
+}
+.content2 {
+    background-color: white;
+
+    color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5vh 1vw;
+}
+
+.content2 h6 {
+    padding: 0vh 7vw;
+
+}
+
+.content2 input {
+    border: 2px solid purple;
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    padding: 2vh 18vw;
+
+}
+
+.content2 button {
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.content2 p {
+    padding: 1vh;
+}
+
+.content2 span {
+    border-bottom: 2px solid white;
+
+}
